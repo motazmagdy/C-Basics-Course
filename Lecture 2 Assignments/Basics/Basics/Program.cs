@@ -7,18 +7,16 @@
         {
             #region Solution of Question 1 
             object newBook = new Book();
-            Console.WriteLine($"Book , {newBook}");
+            Console.WriteLine(newBook);
             #endregion
         }
     }
 
 
-    #region Creating (Book) Class 
     class Book
     {
         string Title ;
         int Pages ;
     }
 
-    #endregion 
 }
