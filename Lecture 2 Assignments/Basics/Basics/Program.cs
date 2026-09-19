@@ -8,7 +8,7 @@
             #region Solution of Question 1 
 
             Book newBook = new Book();
-            //Console.WriteLine(newBook);
+            Console.WriteLine(newBook);
             #endregion
 
             #region Solution of Question 2
