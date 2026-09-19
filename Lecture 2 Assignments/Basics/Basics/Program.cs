@@ -19,6 +19,14 @@
             Console.WriteLine(newBook.GetType());
 
             #endregion
+
+            #region Solution of Question 3
+
+            //int pages = "464";
+            //It is Compile time Error , Correct Syntax is below :
+            int pages = 464;
+
+            #endregion
         }
     }
 
