@@ -6,6 +6,7 @@
         static void Main(string[] args)
         {
             #region Solution of Question 1 
+
             Book newBook = new Book();
             //Console.WriteLine(newBook);
             #endregion
@@ -16,6 +17,17 @@
             Console.WriteLine(newBook.GetHashCode());
             Console.WriteLine(newBook.GetType());
             #endregion
+
+            #region Solution of Question 3
+
+            //int pages = "464";
+            //It is Compile time Error , Correct Syntax is below :
+            int pages = 464;
+
+            #endregion
+
+
+
         }
     }
 
